@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(imagine.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    font: sans-serif;
+    color: black;
+  }
+  
+  
+  
+  
+  .urlIntrebare {
+    position: relative;
+    width: 40%;
+    margin: auto;
+    background: rgba(130,130,130,.3);
+    padding: 20px 22px;
+    border: 1px solid;
+  }
+  
+  .urlIntrebare input, .urlIntrebare button {
+    width: 90%;
+    border: 1px solid;
+    background-color: rgba(0,0,0,.2);
+    text-shadow: 0 1px 0 black;
+    background-repeat: no-repeat;
+    padding: 8px 24px 8px 10px;
+    font: sans-serif;
+  
+    margin-bottom: 19px;
+    color: black;
+  }
+  
+  
+  .urlIntrebare input {
+    padding-right: 8px;
+    width: 80%inherit;
+    background-position: right 3% top 40%;
+  }
+  
+  .urlIntrebare button[type=submit] {
+    width: 50%;
+    margin-bottom: 0;
+    color: black;
+    text-shadow: 0 1px 0 black;
+    text-transform: uppercase;
+    background: rgba(0,0,0,.2);
+    cursor: pointer;
+    text-align:center
+  }
