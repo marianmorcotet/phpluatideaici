@@ -1,0 +1,31 @@
+.afisare {
+    position: relative;
+    width: 20%;
+    margin: auto;
+    background: rgba(130,130,130,.3);
+    padding: 20px 22px;
+    border: 1px solid;
+  }
+
+.afisare button {
+    width: 90%;
+    border: 1px solid;
+    background-color: rgba(0,0,0,.2);
+    text-shadow: 0 1px 0 black;
+    background-repeat: no-repeat;
+    padding: 8px 24px 8px 10px;
+    font: sans-serif;
+    margin-bottom: 19px;
+    color: black;
+  }
+
+.good:hover{
+  background-color: green;
+}
+.bad:hover{
+  background-color: red;
+}
+
+.special:hover{
+  background-color: orange;
+}

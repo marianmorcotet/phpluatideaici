@@ -1,0 +1,51 @@
+#coolListContainer {
+  margin: 20px;
+}
+
+#coolLost {
+  list-style-type: none;
+  width: 500px;
+}
+
+#element h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+#element p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+#element {
+  padding: 10px;
+  overflow: auto;
+}
+
+#element:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}

@@ -1,0 +1,98 @@
+  #coolList
+   {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    background: rgba(130,130,130,.3);
+    padding: 20px 22px;
+    border: 1px solid;
+    font-family: Georgia;
+
+   }
+
+   .title-q{
+    margin:auto;
+    padding: 15px;
+    top: 5px;
+   }
+
+
+   .questions-list{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+   }
+
+   .contains{
+    position: relative;
+    width: 96%inherit;
+    margin: auto;
+    background: rgba(130,130,130,.4);
+    padding: 20px 22px;
+    border: 1px solid;
+    word-wrap:break-word;
+    text-align-last: left;
+
+   }
+
+   .options-q{
+    margin: 0;
+    padding: 1px;
+    list-style: none;
+
+
+
+   }
+
+   .options-q .options {
+     width: 30%inherit;
+     height: 20px;
+     float:left;
+     background: rgba(130,130,130,.5);
+     text-align: center;
+     font-size: 16px;
+     line-height: 20px;
+     margin-right: 2px;
+     margin-left: 0px;
+     border: 1px solid;
+   }
+   .options-q .options a{
+    text-decoration: none;
+    color:black;
+    font-family: Georgia;
+    display:block;
+    opacity: 4;
+
+
+   }
+
+   .options-q .options .delete-q:hover{
+
+    background-color: red;
+   }
+
+
+   .options-q .options .see-q:hover{
+
+    background-color: green;
+   }
+
+   .options-q .options .gen-stat:hover{
+     background-color: orange;
+   }
+footer{
+
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    opacity: .8;
+    color: white;
+    text-align: center;
+    background-position: left 58% top 0px;
+
+    background-image: url(emblema.jpg);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
